@@ -1,0 +1,88 @@
+#wrapper-home {
+  max-width: 730px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#wrapper-home h1 {
+  font-size: 36px;
+  align-self: center;
+}
+
+#send-message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+#send-message p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444444;
+}
+#send-message form {
+  display: flex;
+  flex-direction: column;
+}
+
+#send-message form textarea {
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 100px;
+  width: 700px;
+  resize: none;
+  padding: 15px;
+  font-family: Roboto;
+}
+
+#send-message form button {
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 15px;
+  height: 44px;
+  width: 200px;
+  background: #FE6A16;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+#send-message form button:hover {
+  background: #f45a01;
+}
+
+#sent-sms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+#sent-sms p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444444;
+}
+
+#sent-sms div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#sent-sms div span {
+  font-size: 16px;
+  color: #222222;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #222;
+  border-radius: 4px;
+}
